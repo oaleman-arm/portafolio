@@ -1,0 +1,22 @@
+.about__container {
+    background: #eaf2fd;
+}
+.titles__h2 {
+    font-size: var(--font-size-large);
+    color: var(--color-gray);
+}
+.about__description {
+    font-size: var(--font-size-medium);
+    color: var(--color-gray);
+    margin-top: 30px;
+    line-height: 2.8rem;
+}
+
+@media screen and (min-width: 600px) {
+    .titles__h2 {
+        font-size: var(--font-size-xl);
+    }
+    .about__description {
+        font-size: var(--font-size-large);
+    }
+}
